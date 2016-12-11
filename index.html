@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" charset="utf-8" />
+
+<title>モスペンくん3号</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/corundum.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/main.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/utf.js" charset="utf-8"></script>
+</head>
+
+<body>
+	<div style="position: relative;">
+		<div id="faceArea">
+			<img id="faceImg" />
+		</div>
+
+		<div id="debugArea" style="position: absolute; top: 0px; left: 0px;">
+			<br>
+			<table>
+				<tr>
+					<td width="60px" align="right">左：</td>
+					<td id="sonicLeftValue" width="60px"></td>
+					<td width="60px" align="right">中央：</td>
+					<td id="sonicCenterValue" width="60px"></td>
+					<td width="60px" align="right">右：</td>
+					<td id="sonicRightValue" width="60px"></td>
+				</tr>
+				<tr>
+					<td width="60px" align="right">R：</td>
+					<td id="colorRedValue" width="60px"></td>
+					<td width="60px" align="right">G：</td>
+					<td id="colorGreenValue" width="60px"></td>
+					<td width="60px" align="right">B：</td>
+					<td id="colorBlueValue" width="60px"></td>
+				</tr>
+			</table>
+			<table>
+				<tr>
+					<td width="60px" align="right">発話：</td>
+					<td id="speak" width="360px"></td>
+				</tr>
+				<tr>
+					<td width="60px" align="right">動作：</td>
+					<td id="move" width="30px"></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
